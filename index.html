@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Penguin Fashion</title>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'buy-primary': '#85A019',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="bg-[#FFFBF0] pb-28">
+      <div class="md:container md:mx-auto lg:px-24 px-4 py-4">
+        <!-- Nav Section -->
+        <nav>
+          <div class="navbar justify-between">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </label>
+                <ul tabindex="0"
+                  class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li><a>Product</a></li>
+                  <li><a>About us</a></li>
+                  <li><a>Contact us</a></li>
+                </ul>
+              </div>
+              <img class="w-96" src="./icons/logo.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>Product</a></li>
+                <li><a>About us</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+
+        <!-- Banner Section -->
+        <div class="flex flex-col lg:flex-row justify-between items-center">
+          <div>
+            <h1 class="font-bebas-neue text-xl md:text-5xl lg:text-7xl font-normal uppercase text-[#FABE4C]">Be the Penguins
+              <br> <span class="text-[#363958]">of Winter</span>
+            </h1>
+            <p class="w-3/5 fon text-base text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry.</p>
+
+            <button class="text-[#fff] btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] mt-3"> <img class="w-7" src="./icons/shopping-cart 1.png" alt="">BUY NOW
+            </button>
+          </div>
+
+          <div>
+            <img src="./images/model.png" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <div class="md:container md:mx-auto lg:px-24 px-4">
+      <div>
+        <h1 class="font-bebas-neue text-5xl py-4">WOMAN JACKET</h1>
+      </div>
+
+      <div class="flex flex-col items-center lg:flex-row justify-between">
+
+        <div class="card w-80 items-center bf-[#fff] shadow-2xl">
+          <div class="w-72 p-6 mt-4 rounded-2xl bg-[#F1F1F1]">
+            <figure><img class="" src="./images/jacket-1.png" alt="car!" /></figure>
+          </div>
+          <div class="card-body font-roboto">
+            <h2 class="card-title">Yellow Coat Jacket</h2>
+            <p>How to park your car at your garage?</p>
+            <div class="card-actions items-center justify-between">
+              <h1 class="text-4xl font-black text-[#FABE4C]">$234</h1>
+              <button class="text-[#fff] btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] mt-3"> <img class="w-7" src="./icons/shopping-cart 1.png" alt="">BUY NOW
+            </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card w-80 items-center bf-[#fff] shadow-2xl">
+          <div class="w-72 p-6 mt-4 rounded-2xl bg-[#F1F1F1]">
+            <figure><img class="" src="./images/jacket-2.png" alt="car!" /></figure>
+          </div>
+          <div class="card-body font-roboto">
+            <h2 class="card-title">Ladies Jacket </h2>
+            <p>How to park your car at your garage?</p>
+            <div class="card-actions items-center justify-between">
+              <h1 class="text-4xl font-black text-[#FABE4C]">$234</h1>
+              <button class="text-[#fff] btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] mt-3"> <img class="w-7" src="./icons/shopping-cart 1.png" alt="">BUY NOW
+            </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card w-80 items-center bf-[#fff] shadow-2xl">
+          <div class="w-72 p-6 mt-4 rounded-2xl bg-[#F1F1F1]">
+            <figure><img class="" src="./images/jacket-3.png" alt="car!" /></figure>
+          </div>
+          <div class="card-body font-roboto">
+            <h2 class="card-title">Woman Leather Jacket </h2>
+            <p>How to park your car at your garage?</p>
+            <div class="card-actions items-center justify-between">
+              <h1 class="text-4xl font-black text-[#FABE4C]">$234</h1>
+              <button class="text-[#fff] btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] mt-3"> <img class="w-7" src="./icons/shopping-cart 1.png" alt="">BUY NOW
+            </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div>
+        <h1 class="font-bebas-neue text-5xl py-10">MAN JACKET</h1>
+      </div>
+
+      <div class="flex flex-col items-center lg:flex-row justify-between">
+
+        <div class="card w-80 items-center bf-[#fff] shadow-2xl">
+          <div class="w-72 p-6 mt-4 rounded-2xl bg-[#F1F1F1]">
+            <figure><img class="" src="./images/jacket-4.png" alt="car!" /></figure>
+          </div>
+          <div class="card-body font-roboto">
+            <h2 class="card-title">Snowboard Jacket Mens</h2>
+            <p>How to park your car at your garage?</p>
+            <div class="card-actions items-center justify-between">
+              <h1 class="text-4xl font-black text-[#FABE4C]">$234</h1>
+              <button class="text-[#fff] btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] mt-3"> <img class="w-7" src="./icons/shopping-cart 1.png" alt="">BUY NOW
+            </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card w-80 items-center bf-[#fff] shadow-2xl">
+          <div class="w-72 p-6 mt-4 rounded-2xl bg-[#F1F1F1]">
+            <figure><img class="" src="./images/jacket-5.png" alt="car!" /></figure>
+          </div>
+          <div class="card-body font-roboto">
+            <h2 class="card-title">Man Leather Jackets</h2>
+            <p>How to park your car at your garage?</p>
+            <div class="card-actions items-center justify-between">
+              <h1 class="text-4xl font-black text-[#FABE4C]">$234</h1>
+              <button class="text-[#fff] btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] mt-3"> <img class="w-7" src="./icons/shopping-cart 1.png" alt="">BUY NOW
+            </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card w-80 items-center bf-[#fff] shadow-2xl">
+          <div class="w-72 p-6 mt-4 rounded-2xl bg-[#F1F1F1]">
+            <figure><img class="" src="./images/jacket-6.png" alt="car!" /></figure>
+          </div>
+          <div class="card-body font-roboto">
+            <h2 class="card-title">Man Casual Jackets</h2>
+            <p>How to park your car at your garage?</p>
+            <div class="card-actions items-center justify-between">
+              <h1 class="text-4xl font-black text-[#FABE4C]">$234</h1>
+              <button class="text-[#fff] btn bg-gradient-to-r from-[#A4BC46] to-[#85A019] mt-3"> <img class="w-7" src="./icons/shopping-cart 1.png" alt="">BUY NOW
+            </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="flex flex-col-reverse lg:flex-row items-center justify-between py-28">
+        <div class="flex flex-col gap-4">
+          <div class="w-96 p-6 card card-side bg-base-100 shadow-2xl">
+            <figure class="p-5"><img class="w-20" src="./icons/house.png" alt=""></figure>
+            <div class="card-body font-roboto p-0 mt-7 pl-2">
+              <h2 class="card-title text-bas">Find the Perfect Fit</h2>
+              <p class="text-sm">Everybody is different, which is why we
+                offer styles for every body.</p>
+            </div>
+          </div>
+
+          <div class="w-96 p-6 card card-side bg-base-100 shadow-2xl">
+            <figure class="p-5"><img class="w-20" src="./icons/box.png" alt=""></figure>
+            <div class="card-body font-roboto p-0 mt-7 pl-2">
+              <h2 class="card-title text-bas">Free Exchanges</h2>
+              <p class="text-sm">Everybody is different, which is why we
+                offer styles for every body.</p>
+            </div>
+          </div>
+
+          <div class="w-96 p-6 card card-side bg-base-100 shadow-2xl">
+            <figure class="p-5"><img class="w-20" src="./icons/question.png" alt=""></figure>
+            <div class="card-body font-roboto p-0 mt-7 pl-2">
+              <h2 class="card-title text-bas">Contact Our Seller</h2>
+              <p class="text-sm">Everybody is different, which is why we
+                offer styles for every body.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-3/5">
+          <img src="./images/shopping.png" alt="">
+        </div>
+      </div>
+
+      
+    </div>
+  </main>
+
+  <footer></footer>
+</body>
+
+</html>
